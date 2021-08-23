@@ -1,0 +1,776 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ru-ru" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Плановое ТО</title>
+
+<link href="css/style.min.css" rel="stylesheet"></head>
+<body id="body" >
+  <div id="wrapper" class="wrapper ">
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="header__top-left">
+            <a href="/" class="header__link">
+              <img class="header__logo" src="/images/logo.svg" alt="logo">
+            </a>
+            <p class="header__discr-bl">
+              BMW Service
+            </p>
+            <p class="header__discr">
+              Независимый БМВ Сервис им. Сергея Смирнова
+            </p>
+          </div>
+          <ul class="header__sub-menu">
+            <li class="header__sub-item">
+              <a href="/" class="header__sub-link">
+                Главная
+              </a>
+            </li>
+            <li class="header__sub-item">
+              <a href="/prices" class="header__sub-link">
+                Услуги и цены
+              </a>
+            <li class="header__sub-item">
+              <a href="/warranty" class="header__sub-link">
+                О гарантии
+              </a>
+            </li>   
+            <li class="header__sub-item">
+              <a href="/shop" class="header__sub-link">
+                Плановое ТО
+              </a>
+            </li>
+            <li class="header__sub-item">
+              <a href="/contacts" class="header__sub-link">
+                Контакты
+              </a>
+            </li>
+			<!--
+            <li class="header__sub-item">
+              <a href="/katalog-test" class="header__sub-link">
+                Каталог
+              </a>
+            </li>			
+            <li class="header__sub-item">
+              <a href="/bmwservice-oils" class="header__sub-link">
+                Поиск по маслу
+              </a>
+            </li>-->				
+          </ul>
+          <div class="header__top-right">
+            <p class="header__adress">ул. Лобачевского,110</p>
+            <a href="tel:74952554242" class="header__tel">+7 (495) 255-42-42</a>
+			
+             <div class="whatsapp">
+              <a href="https://wa.me/74952554242" class="whatsapp__link">
+                <img class="whatsapp-img" src="/images/whatsapp.svg" alt="WhatsApp">
+                <p class="whatsapp__text">
+                  написать </br> в whatsapp
+                </p>
+              </a>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__bottom-wrapper">
+            <div class="menu__btn">
+              <span></span>
+            </div>
+            <nav class="menu">
+              <div class="close-btn menu__btn">
+              </div>
+              <ul class="menu__list">
+                <!-- здесь дублируется верхнее меню-->
+                <div class="menu__top-dubl">
+                  <li class="menu__item menu__mob-item">
+                    <a href="/" class="menu__link">Главная</a>
+                  </li>
+                  <li class="menu__item menu__mob-item">
+                    <a href="/prices" class="menu__link">Услуги и цены</a>
+                  </li>
+                  <li class="menu__item menu__mob-item">
+                    <a href="/shop" class="menu__link">Плановое ТО</a>
+                  </li>
+                  <li class="menu__item menu__mob-item">
+                    <a href="/warranty" class="menu__link">
+                      О гарантии
+                    </a>
+                  </li>
+                  <li class="menu__item menu__mob-item">
+                    <a href="/contacts" class="menu__link">Контакты</a>
+                  </li>
+                </div>
+                <!-- здесь дублируется верхнее меню-->
+                <li class="menu__item">
+                  <a href="/pages/transmission" class="menu__link">Ремонт BMW</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/pages/doosnashchenie" class="menu__link">Дооснащение</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/service" class="menu__link">Тех.обслуживание</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/pages/bodyrepair" class="menu__link">Кузовной ремонт</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/pages/skhod-razval" class="menu__link">Сход-развал</a>
+                </li>
+				 
+                <li class="menu__item">
+                  <a href="/maintenance-calculator" class="menu__link">Калькулятор ТО</a>
+                </li> 
+              </ul>
+              <a href="/" class="header__info-link">
+                <img src="/images/idrive-pro.svg" alt="logo" class="header__info-img">
+              </a>
+            </nav>
+            <div class="header__info">
+              <a href="/" class="header__info-link">
+                <img src="/images/idrive-pro.svg" alt="logo" class="header__info-img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+    <div  class="breadcrumbs" aria-label="Breadcrumbs" role="navigation">
+<div class="container">
+	<ul  itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumbs__list breadcrumb">
+		
+						<li  class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item" href="/" class="breadcrumbs__link pathway"><span itemprop="name">Главная</span></a>
+					
+										<meta itemprop="position" content="1">
+				</li>
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active breadcrumbs__item">
+					<span itemprop="name">
+						Плановое ТО					</span>
+					<meta itemprop="position" content="2">
+				</li>
+				</ul>
+</div>
+</div>
+
+ 
+ 
+
+
+ 
+<div id="system-message-container">
+	</div>
+
+<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="ru-RU" />
+	
+		
+						
+		
+	
+	
+		
+								<div itemprop="articleBody">
+		<section class="planned">
+    <div class="container">
+      <h1 class="planned__title title">
+        плановое то
+      </h1>
+      <div class="planned__inner">
+        <div class="planned__box">
+          <p class="planned__price">
+            6 800 &#8381;
+          </p>
+          <div class="planned__wrapper">
+            <h2 class="planned__subtitle subtitle-inderline">
+              Стоимость услуг по стандарту дилера
+            </h2>
+            <ul class="planned__list">
+              
+              
+              <li class="planned__items">
+                Выполняемые операции по протоколу сервиса <br> BMW AG
+              </li>              
+              <li class="planned__items">
+                ТО в обычном обьеме
+              </li>
+              <li class="planned__items">
+                ТО по регламенту oilService
+              </li>
+              <li class="planned__items">
+                Проверка угла установки колес KDS с загрузкой
+              </li>
+              <li class="planned__items">
+                Запрос/чтение ошибок диагностика BMW ISTA
+              </li>
+              <li class="planned__items">
+                Проверка рулевой, тормозной системы <br>
+                трансмиссии и подвески
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="planned__info">
+          <div class="planned__btn btn">
+            РАСШИРЕННОЕ ОБСЛУЖИВАНИЕ
+          </div>
+          <div class="planned__item-inner">
+            <div class="planned__discr planned__discr-1">
+              Замена масла
+              в АКПП
+            </div>
+            <div class="planned__item-price">
+              4 500 &#8381;
+            </div>
+          </div>
+          <div class="planned__item-inner">
+            <div class="planned__discr planned__discr-2" style="background-color: #CDCED0;">
+              Замена передних тормозных  <br> колодок, комплект
+            </div>
+            <div class="planned__item-price">
+              2 000 &#8381;
+            </div>
+          </div>
+          <div class="planned__item-inner">
+            <div class="planned__discr planned__discr-3" style="background-color:  #B5B5B7;">
+              Регулировка сход-развала <br> с дозагрузкой
+               
+            </div>
+            <div class="planned__item-price">
+              6 000 &#8381;
+            </div>
+          </div>
+          <div class="planned__item-inner">
+            <div class="planned__discr planned__discr-4" style="background-color: #9E9FA1;">
+              Замена тормозной жидкости,<br>
+              с прокачкой
+            </div>
+            <div class="planned__item-price">
+              1 900 &#8381;
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="product">
+    <div class="container">
+      <div class="product__inner-wrapper">
+        <a href="#" class="product__item product__item-big">
+          <div class="product__img-wrapper">
+            <img src="/images/shop/1-413-XENUM-WRX-poster-LB-620x330.jpg" alt="XENUM VRX 7.5W40" class="product__img">
+          </div>
+          <div class="product__info">
+            <div class="product__info-wrap">
+              <h3 class="product__name">
+                XENUM VX 500 керамика
+              </h3>
+              <div class="product__discr">
+                Микрокерамика (гексагональный нитрид бора hBN), мощная твердая смазка поляризированное синтетическое масло на эстеровой основе. Вместе они формируют максимально прочную защитную пленку, снижающую износ и трение. Когда двигатель выключен, эта пленка находится на поверхности трущихся деталей двигателя, обеспечивая оптимальную защиту при холодном старте. Возрастает крутящий момент при низких оборотах двигателя, способствует увеличению ресурса двигателя, снижению потребления топлива и масла на угар. <br>
+
+Уменьшающей коэффициент трения и понижающей температуру масла в двигателе для работы в самых экстремальных условиях спортивных и тюнинговых двигателей. Подходит для всех типов двигателей.
+              </div>
+            </div>
+            <p class="product__price">
+              5 000 &#8381;
+            </p>
+          </div>
+        </a>
+        <div class="product__inner">
+          <a href="#" class="product__item product__item-small">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/2-yAAAAgDpdeA-1920-1.png" alt="LIQUI MOLY SYNTHOIL 5W30" class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                  MOTUL 8100 X-cess gen2 5W-40 
+                </h3>
+                <div class="product__discr">
+                  Полностью соответствует обновленным требованиям спецификации BMWLong Life-01, которая регламентируется для автомобилей BMW, MINI и ROLLS-ROYCE, модельных рядов как до, так и после 2019 года.  Разработано для современных турбированных бензиновых и дизельных двигателей, с катализаторами и сжевыми фильтрами.
+                </div>
+              </div>
+              <p class="product__price">
+               1 100 &#8381;
+              </p>
+            </div>
+          </a>
+          <a href="#" class="product__item product__item-small">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/2-1-yAAAAgDpdeA-1920.png" alt=" XENUM XPG 5W40" class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                 MOTUL 8100 X-MAX 0W-40
+                </h3>
+                <div class="product__discr">
+                  Высокотехнологичное 100% синтетическое моторное масло. Изготовлено по технологии классического содержания сульфатной золы, фосфора и серы (Full SAPS). Для последнего поколения мощных бензиновых и дизельных двигателей в т.ч. с непосредственным впрыском и турбонаддувом. Имеет одобрения автопроизводителей, что позволяет использовать его в гарантийных автомобилях. 
+                </div>
+              </div>
+              <p class="product__price">
+                1 500 &#8381;
+              </p>
+            </div>
+          </a>
+          
+          
+          <a   class="product__item product__item-small">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/3-6046309157-1.png" alt="M TWIN POWER Turbo 0W40 " class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                  BMW (SHELL) Longlife-01 5W-30
+                </h3>
+                <div class="product__discr">
+                  Моторное масло BMW TwinPower Turbo Longlife-01 SAE 5W-30 создано на основе технологии GTL компании SHELL. 
+По характеристикам уступает продуктам линейки MOTUL 8100 XMAX 
+            
+                </div>
+              </div>
+              <p class="product__price">
+                1 400 &#8381;
+              </p>
+            </div>
+          </a>
+          
+          
+ 
+        </div>
+        
+        
+    
+        
+        
+        
+        <div class="product__inner">
+          <a href="#" class="product__item product__item-midle">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/8681-parts-oil-1.jpg" alt="ФИЛЬТР МАСЛЯНЫЙ" class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                  ФИЛЬТР МАСЛЯНЫЙ
+                </h3>
+                <div class="product__discr">
+                 BMW Service Сергея Смирнова предлагает ТОЛЬКО оригинальные масляные фильтры для вашего БМВ по привлекательным ценам Масляный фильтр важное звено в системе смазки. В процессе эксплуатации двигателя масло смывает нагар, продукты износа. Если бы не было масляного фильтра, все эти твердые частицы снова попадали между трущимися частями двигателя, ускоряя в них износ. Тем самым намного быстрее приближали бы дорогостоящий ремонт. Стоимость указана для БМВ 320 в кузове Е90 , для БМВ 520 в кузове F10, для Х5 3.0 в кузове Е70
+                </div>
+              </div>
+              <div class="product__price-wrap">
+                <p class="product__price">
+                  <span>BMW 320i (F30)</span> 1150 &#8381;
+                </p>
+                <p class="product__price">
+                  <span>BMW 520D (F10)</span> 1150 &#8381;
+                </p>
+                <p class="product__price">
+                  <span> BMW X5 3.0D (G05)</span> 1310 &#8381;
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="product__item product__item-midle">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/4143-parts-spark-1.jpg" alt="СВЕЧИ ЗАЖИГАНИЯ" class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                  СВЕЧИ ЗАЖИГАНИЯ
+                </h3>
+                <div class="product__discr">
+                  Оригинальные свечи BMW От состояния свечи зависит качественный запуск двигателя, стабильность его работы, приемистость автомобиля, максимально достижимая скорость, расход топлива. Отказ свечи, может привести к выходу из строя других элементов системы зажигания (катушки, крышки трамблера) или дорогого каталитического нейтрализатора отработавших газов. Поэтому неисправную свечу следует как можно скорее "вычислить" и заменить. Стоимость указана для БМВ 320 в кузове Е90 , для БМВ 520 в кузове F10, для Х5 3.0 в кузове Е70
+                </div>
+              </div>
+              <div class="product__price-wrap">
+                <p class="product__price">
+                  <span>BMW 320i (F30)</span> 1310 &#8381;
+                </p>
+                <p class="product__price">
+                  <span>BMW 520D (F10)</span> 1310 &#8381;
+                </p>
+                <p class="product__price">
+                  <span> BMW X5 3.0D (G05)</span> 1450 &#8381;
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="product__inner">
+          <a href="#" class="product__item product__item-midle">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/4-522-parts-cabin-1.png" alt="САЛОННЫЙ ФИЛЬТР" class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                  САЛОННЫЙ ФИЛЬТР
+                </h3>
+                <div class="product__discr">
+                   Микрофильтр/фильтр с активирован.углем Салонные фильтры препятствуют попаданию в салон автомобиля пыли и выхлопов, сокращая их содержание в поступающем воздухе на 99,5% Концентрация выхлопов внутри салона автомобиля без фильтра, как правило в 6 раз выше чем на дорогах. Поставщик MAHLE/KNECHT. Стоимость указана для БМВ 320 в кузове Е90 , для БМВ 520 в кузове F10, для Х5 3.0 в кузове Е70
+                </div>
+              </div>
+              <div class="product__price-wrap">
+                <p class="product__price">
+                  <span>BMW 320i (F30)</span> 3676 &#8381;
+                </p>
+                <p class="product__price">
+                  <span>BMW 520D (F10)</span> 4900 &#8381;
+                </p>
+                <p class="product__price">
+                  <span> BMW X5 3.0D (G05)</span> 5250 &#8381;
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="product__item product__item-midle">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/5-1269-parts-pads-2-1.png" alt="КОЛОДКИ ТОРМОЗНЫЕ" class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                  КОЛОДКИ ТОРМОЗНЫЕ
+                </h3>
+                <div class="product__discr">
+                  Оригинальные передние тормозные колодки. Признаком износа колодок может быть скрип или скрежет, но это будет свидетельствовать о полном износе колодок, до которого лучше не доводить по причинам: ездить со стертыми «в ноль» колодками небезопасно, изношенные колодки могут повредить тормозные диски. Стоимость указана для БМВ 320 в кузове Е90 , для БМВ 520 в кузове F10, для Х5 3.0 в кузове Е70
+                </div>
+              </div>
+              <div class="product__price-wrap">
+                <p class="product__price">
+                  <span>BMW 320i (F30)</span> 6800 &#8381;
+                </p>
+                <p class="product__price">
+                  <span>BMW 520D (F10)</span> 7800 &#8381;
+                </p>
+                <p class="product__price">
+                  <span> BMW X5 3.0D (G05)</span> 22500 &#8381;
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="product__inner">
+          <a href="#" class="product__item product__item-midle">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/6-290-181778502337_1_1_1-1.png" alt="ДАТЧИК КОЛОДОК" class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                  ДАТЧИК КОЛОДОК
+                </h3>
+                <div class="product__discr">
+                  Датчик износа тормозных накладок TRW Стоимость указана для БМВ 320 в кузове Е90 , для БМВ 520 в кузове F10, для Х5 3.0 в кузове Е70
+                </div>
+              </div>
+              <div class="product__price-wrap">
+                <p class="product__price">
+                  <span>BMW 320i (F30)</span> 950 &#8381;
+                </p>
+                <p class="product__price">
+                  <span>BMW 520D (F10)</span> 950 &#8381;
+                </p>
+                <p class="product__price">
+                  <span> BMW X5 3.0D (G05)</span> 1750 &#8381;
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="product__item product__item-midle">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/7-6059-parts-engine-1.png" alt="ДАТЧИК КОЛОДОК" class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                 ВОЗДУШНЫЙ ФИЛЬТР
+                </h3>
+                <div class="product__discr">
+                  За 100 км пробега среднестатистический автомобиль потребляет 12-15 м³ атмосферного воздуха. Хотя воздушный фильтр – это достаточно простой узел, не стоит им пренебрегать и доводить до плачевного состояния. Засорившийся воздушный фильтр затрудняет работу силовой установки, повышает расход топлива. MAHLE Original. Стоимость указана для БМВ 320 в кузове Е90 , для БМВ 520 в кузове F10, для Х5 3.0 в кузове Е70
+                </div>
+              </div>
+              <div class="product__price-wrap">
+                <p class="product__price">
+                  <span>BMW 320i (F30)</span> 2456 &#8381;
+                </p>
+                <p class="product__price">
+                  <span>BMW 520D (F10)</span> 2490 &#8381;
+                </p>
+                <p class="product__price">
+                  <span> BMW X5 3.0D (G05)</span> 2790 &#8381;
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="product__inner">
+          <a href="#" class="product__item product__item-midle">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/8-4566-parts-discs-1.png" alt="ТОРМОЗНЫЕ ДИСКИ" class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                  ТОРМОЗНЫЕ ДИСКИ
+                </h3>
+                <div class="product__discr">
+                  Передние тормозные диски. Производители BMW, TRW, Zimmermann Стоимость указана для БМВ 320 в кузове Е90 , для БМВ 520 в кузове F10, для Х5 3.0 в кузове Е70
+                </div>
+              </div>
+              <div class="product__price-wrap">
+                <p class="product__price">
+                  <span>BMW 320i (F30)</span> 7800 &#8381;
+                </p>
+                <p class="product__price">
+                  <span>BMW 520D (F10)</span> 7950 &#8381;
+                </p>
+                <p class="product__price">
+                  <span> BMW X5 3.0D (G05)</span> 24800 &#8381;
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="product__item product__item-midle">
+            <div class="product__img-wrapper">
+              <img src="/images/shop/9-9697-agm2-1.png" alt="Аккумулятор" class="product__img">
+            </div>
+            <div class="product__info">
+              <div class="product__info-wrap">
+                <h3 class="product__name">
+                  Аккумулятор
+                </h3>
+                <div class="product__discr">
+                  Отличие батарей AGM от классических в том, что в них содержится абсорбированный электролит, а не жидкий, что даёт ряд изменений в свойствах аккумулятора, если автомобиль был изначально оснащен технологией AGM, никогда не следует заменять на аккумулятор с другой технологией. 
+                </div>
+              </div>
+              <div class="product__price-wrap">
+                <p class="product__price">
+                  <span>BMW 320i (F30)</span> 22500 &#8381;
+                </p>
+                <p class="product__price">
+                  <span>BMW 520D (F10)</span> 22500 &#8381;
+                </p>
+                <p class="product__price">
+                  <span> BMW X5 3.0D (G05)</span> 22500 &#8381;
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+ 	</div>
+
+	
+							</div>
+
+
+
+
+    
+ 
+ 
+ 
+	 
+  <section class="record2">
+    <a name="registration_for_repair"></a>
+    <div class="container">
+      <div class="record__item">
+        
+        <form action="#" method="post" name="form_bmv" id="form_bmv"  class="record__form form_bmv">
+          
+          <input id="sekretkod2" name="sekretkod2" value="" style="display: none;" type="text"> 
+    
+          <h1 class="record__title2 title">
+            Записаться на ремонт
+          </h1>
+          
+          <div class="clear"> </div>
+ 
+          <div class="record__input-item2 record__input-item-name2">
+              <label for="name" class="record__label2 ">Ваше имя</label>
+              <input required type="text" class="record__input2" id="name" name="name">
+          </div>
+          
+          <div class="record__input-item2 record__input-item-tel2">
+              <label for="tel" class="record__label2">Телефон</label>
+              <div class="record__input-tel-wrapper">
+                <input required type="text" class="record__input2" id="tel"  name="tel">
+              </div>
+          </div>
+ 
+          
+          <div class="record__input-item2 record__textarea-item2">
+              <label for="text" class="record__label2 record__label2mob">Описание проблемы</label>
+              <input required type="text" class="record__input2" id="text" name="vopros" id="vopros">
+          </div>
+         
+          <div class="clear"> </div>
+    
+          <div class="record__btn-item2 ">
+              <a id="smbnahforma" href="#" class="smbnahforma" onclick="myzaschita();   return false;">
+              <div class="record__btn2 btn">
+                  ЗАПИСАТЬСЯ 
+              </div>
+              <img class="btn_vector" src="/images/vector.svg">
+              </a> 
+
+          </div>
+          
+          
+          <div class="record__check-item2 ">
+              <input type="checkbox" class="record__check2" checked id="pol">
+              <p class="record__check-text">Нажимая на кнопку отправить вы соглашаетесь на обработку <a
+                href="/privacy">персональных данных</a></p>
+          </div>
+          
+          
+          <input style="display: none;"  name="button_bmv" id="button_bmv" class="record__btn btn" type="submit" value="ОТПРАВИТЬ">
+
+          <div class="clear"> </div>
+        </form>
+        
+        
+
+        
+        
+      </div>
+    </div>
+  </section>	
+	
+
+ 
+
+ 
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  <div  class="new">
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container">
+        <p class="footer__text">ЗАБОТА О ВАШЕМ BMW — ЭТО НАША РАБОТА. BMW SERVICE.</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <ul class="footer__links">
+
+          <li><a href="/pages/transmission">Ремонт BMW</a></li>
+          <li><a href="/pages/doosnashchenie">Дооснащение</a></li>
+          <li><a href="/service">Тех.обслуживание</a></li>
+          <li><a href="/pages/bodyrepair">Кузовной ремонт</a></li>
+          <li><a href="/pages/skhod-razval">Сход-развал</a></li>
+          <li><a href="/maintenance-calculator">Калькулятор ТО</a></li>
+        </ul>
+
+        <div class="footer__section-1">
+          <div class="footer__copywrite">
+            <p>© 2020 НЕЗАВИСИМЫЙ БМВ СЕРВИС ИМ. СЕРГЕЯ СМИРНОВА</p>
+            <ul>
+              <li><a href="http://www.smirnovservice.ru/">www.smirnovservice.ru</a></li>
+              <li><a  href="mailto:mozgi.bmw@yandex.ru" >mozgi.bmw@yandex.ru</a></li>
+            </ul>
+          </div>
+          <div class="footer__social">
+            <a target="_blank" href="https://www.youtube.com/channel/UCQRLRt9lof67ZWts843EOJw" class="footer__social__item">
+              <div class="footer__social__item-img">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.235 4.005C16.7467 3.1365 16.2169 2.97675 15.138 2.916C14.0603 2.84288 11.3501 2.8125 9.00225 2.8125C6.64987 2.8125 3.93862 2.84288 2.862 2.91488C1.78537 2.97675 1.25437 3.13537 0.761625 4.005C0.25875 4.87238 0 6.36638 0 8.99663C0 8.99888 0 9 0 9C0 9.00225 0 9.00338 0 9.00338V9.00563C0 11.6246 0.25875 13.1299 0.761625 13.9882C1.25437 14.8568 1.78425 15.0143 2.86087 15.0874C3.93863 15.1504 6.64987 15.1875 9.00225 15.1875C11.3501 15.1875 14.0602 15.1504 15.1391 15.0885C16.218 15.0154 16.7479 14.8579 17.2361 13.9894C17.7435 13.131 18 11.6257 18 9.00675C18 9.00675 18 9.00338 18 9.00113C18 9.00113 18 8.99888 18 8.99775C18 6.36638 17.7435 4.87238 17.235 4.005ZM6.75 12.375V5.625L12.375 9L6.75 12.375Z" fill="#4E4E50"/>
+                </svg>
+              </div>
+              <span>avtorevizorro</span>
+            </a>
+            <a  target="_blank"  href="https://www.instagram.com/avtorevizorro.restoration/" class="footer__social__item">
+              <div class="footer__social__item-img">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0H5.21739C4.45852 0 3.78976 0.180207 3.28599 0.315956C3.18364 0.343535 3.0881 0.36928 3 0.391305C2.34783 0.652175 1.82609 0.913045 1.43479 1.43478C0.913048 1.95652 0.65218 2.47826 0.391311 3L0.391308 3C0.130439 3.52174 0 4.30435 0 5.2174V9.00001V12.7826C0 13.5415 0.180208 14.2102 0.315957 14.714C0.343537 14.8164 0.369283 14.9119 0.391308 15C0.652178 15.6522 0.913046 16.1739 1.43479 16.5652C1.95652 16.9565 2.47826 17.3478 3 17.6087C3.52174 17.8696 4.30435 18 5.21739 18H9H12.7826C13.5415 18 14.2102 17.8198 14.714 17.6841C14.8164 17.6565 14.9119 17.6307 15 17.6087C15.6522 17.3478 16.1739 17.087 16.5652 16.5652C16.9565 16.0435 17.3478 15.5218 17.6087 15C17.8696 14.4783 18 13.6957 18 12.7826V9.00001V5.2174C18 4.45853 17.8198 3.78978 17.684 3.28601C17.6565 3.18365 17.6307 3.08811 17.6087 3C17.3478 2.34783 17.087 1.82609 16.5652 1.43478C16.0435 0.91305 15.5217 0.65218 15 0.391313L15 0.391305C14.4783 0.130435 13.6957 0 12.7826 0H9ZM14.9996 4.30422C14.9996 4.95639 14.4778 5.3477 13.9561 5.3477C13.4343 5.3477 12.9126 4.82596 12.9126 4.30422C12.9126 3.65205 13.4343 3.26074 13.9561 3.26074C14.4778 3.26074 14.9996 3.65205 14.9996 4.30422ZM8.99936 12.1302C7.30371 12.1302 5.99936 10.8259 5.99936 9.13023C5.99936 7.43457 7.30371 6.13023 8.99936 6.13023C10.695 6.13023 11.9994 7.43457 11.9994 9.13023C11.9994 10.8259 10.695 12.1302 8.99936 12.1302ZM8.99936 4.43457C6.39067 4.43457 4.30371 6.52153 4.30371 9.13023C4.30371 11.7389 6.39067 13.8259 8.99936 13.8259C11.6081 13.8259 13.695 11.7389 13.695 9.13023C13.695 6.52153 11.6081 4.43457 8.99936 4.43457Z" fill="#4E4E50"/>
+                </svg>
+              </div>
+              <span>avtorevizorro.restoration</span>
+            </a>
+            <a class="footer__social__item footer__social__item--arrow" href="#header">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="28" height="28" transform="matrix(0 -1 -1 0 28 28)" fill="#4E4E50"/>
+                <g clip-path="url(#clip0)">
+                <path d="M24.2666 20.7322L13.9999 7.26758L3.73326 20.7322H8.86648L13.9999 13.9718L19.1333 20.7322H24.2666Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0">
+                <rect width="20.5333" height="20.5333" fill="white" transform="translate(24.2666 3.7334) rotate(90)"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__section-2">
+          <p>
+            Предложения на сайте не являются публичной офертой. Все цены на работы и расходные материалы требуют уточнения и согласования до начала работ в виде консультаций: по телефону, электронной почте, whatsapp, или составления заказ наряда в офисе по адресу <a href="/contacts">Москва, ул. Лобачевского, 110к1</a>
+          </p>
+          <div id="easy-webdesign">
+            Создание сайта: <a href="#">Easy web</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+	
+ 
+  </div><!--new -->
+</div> <!--wrapper -->
+
+
+  
+    
+ 
+ 
+ 
+	  <script src="/js/main.min.js"></script>	
+	
+
+ 
+
+
+
+
+ 
+<script src="./js/app.js"></script></body>
+</html>
