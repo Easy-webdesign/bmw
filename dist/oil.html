@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bmw</title>
+  
+<link href="css/style.min.css" rel="stylesheet"></head>
+
+<body id="body" class="new">
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__top">
+        <div class="header__top-left">
+          <a href="#" class="header__link">
+            <img class="header__logo" src="images/logo.svg" alt="logo">
+          </a>
+          <p class="header__discr-bl">
+            BMW Service
+          </p>
+          <p class="header__discr">
+            Независимый БМВ Сервис им. Сергея Смирнова
+          </p>
+        </div>
+        <ul class="header__sub-menu">
+          <li class="header__sub-item">
+            <a href="#" class="header__sub-link">
+              Главная
+            </a>
+          </li>
+          <li class="header__sub-item">
+            <a href="#" class="header__sub-link">
+              Услуги и цены
+            </a>
+          </li>
+          <li class="header__sub-item">
+            <a href="#" class="header__sub-link">
+              Плановое ТО
+            </a>
+          </li>
+          <li class="header__sub-item">
+            <a href="#" class="header__sub-link">
+              О гарантии
+            </a>
+          </li>
+          <li class="header__sub-item">
+            <a href="#" class="header__sub-link">
+              Контакты
+            </a>
+          </li>
+        </ul>
+        <div class="header__top-right">
+          <p class="header__adress">ул. Лобачевского,110</p>
+          <a href="#" class="header__tel">+7 (495) 255-42-42</a>
+          <div class="whatsapp">
+            <a href="https://wa.me/79684847272" class="whatsapp__link">
+              <img class="whatsapp-img" src="images/whatsapp.svg" alt="WhatsApp">
+              <p class="whatsapp__text">
+                написать </br> в whatsapp
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__bottom-wrapper">
+          <div class="menu__btn">
+            <span></span>
+          </div>
+          <nav class="menu">
+            <div class="close-btn menu__btn">
+            </div>
+            <ul class="menu__list">
+              <!-- здесь дублируется верхнее меню-->
+              <div class="menu__top-dubl">
+                <li class="menu__item menu__mob-item">
+                  <a href="#" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item menu__mob-item">
+                  <a href="#" class="menu__link">Услуги и цены</a>
+                </li>
+                <li class="menu__item menu__mob-item">
+                  <a href="#" class="menu__link">Плановое ТО</a>
+                </li>
+                <li class="menu__item menu__mob-item">
+                  <a href="#" class="menu__link">
+                    О гарантии
+                  </a>
+                </li>
+                <li class="menu__item menu__mob-item">
+                  <a href="#" class="menu__link">Контакты</a>
+                </li>
+              </div>
+              <!-- здесь дублируется верхнее меню-->
+              <li class="menu__item">
+                <a href="#" class="menu__link">Ремонт BMW</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Дооснащение</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Тех.обслуживание</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Кузовной ремонт</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Сход-развал</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Калькулятор ТО</a>
+              </li>
+            </ul>
+            <a href="#" class="header__info-link">
+              <img src="images/idrive-pro.svg" alt="logo" class="header__info-img">
+            </a>
+          </nav>
+          <div class="header__info">
+            <a href="#" class="header__info-link">
+              <img src="images/idrive-pro.svg" alt="logo" class="header__info-img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="breadcrumbs">
+    <div class="container">
+      <ul class="breadcrumbs__list">
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link" href="#">
+            Главная  
+          </a>
+        </li>
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link" href="#">
+            Результаты поиска
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="j-title mt-none">
+    <div class="container">
+      <h1 class="title title--uppercase">Лабораторные исследования моторных масел</h1>
+    </div>
+  </section>
+
+  <section class="j-filters">
+      <div class="container">
+          <form action="#">
+            <div class="j-filters__box">
+                <div class="j-filters__box-items">
+                    <div class="j-filters__box-radio">
+                        <div class="j-filters__radio-title">Полимеризация</div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="poly" value="1">
+                                <span></span>
+                                <p>Да</p>
+                            </label>
+                        </div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="poly" value="-1">
+                                <span></span>
+                                <p>Нет</p>
+                            </label>
+                        </div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="poly" value="0" checked="">
+                                <span></span>
+                                <p>Не важно</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="j-filters__box-radio">
+                        <div class="j-filters__radio-title">Чистый результат</div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="scurf" id="">
+                                <span></span>
+                                <p>Да</p>
+                            </label>
+                        </div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="scurf" id="">
+                                <span></span>
+                                <p>Нет</p>
+                            </label>
+                        </div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="scurf" id="" checked="">
+                                <span></span>
+                                <p>Не важно</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="j-filters__box-radio">
+                        <div class="j-filters__radio-title">Хим. анализ</div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="him" value="1">
+                                <span></span>
+                                <p>Да</p>
+                            </label>
+                        </div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="him" value="-1">
+                                <span></span>
+                                <p>Нет</p>
+                            </label>
+                        </div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="him" value="0" checked="">
+                                <span></span>
+                                <p>Не важно</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="j-filters__box-radio">
+                        <div class="j-filters__radio-title">Синтетика</div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="thickening" value="1">
+                                <span></span>
+                                <p>Да</p>
+                            </label>
+                        </div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="thickening" value="-1">
+                                <span></span>
+                                <p>Нет</p>
+                            </label>
+                        </div>
+                        <div class="j-filters__radio">
+                            <label>
+                                <input type="radio" name="thickening" value="0" checked="">
+                                <span></span>
+                                <p>Не важно</p>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="j-filters__box-items">
+                    <div class="research__select-group">
+                        <div class="research__select-item">
+                          <label for="sea" class="research__label">Вязкость</label>
+                          <select id="sea" name="viscosity" class="research__select">
+                            <option value="0">0</option>
+                            <option value="0w20">0w20</option>
+                            <option value="0w30">0w30</option>
+                            <option value="0w40">0w40</option>
+                            <option value="5w20">5w20</option>
+                            <option value="5w30">5w30</option>
+                            <option value="5w40">5w40</option>
+                            <option value="5w50">5w50</option>
+                            <option value="7.5w40">7.5w40</option>
+                            <option value="10w40">10w40</option>
+                            <option value="10w50">10w50</option>
+                            <option value="10w60">10w60</option>
+                            <option value="15w40">15w40</option>
+                            <option value="15w50">15w50</option>
+                            <option value="20">20</option>
+                            <option value="50">50</option>
+                          </select>
+                        </div>
+                        <div class="research__select-item">
+                          <label for="brands" class="research__label">Производитель</label>
+                          <select id="brands" name="viscosity" class="research__select">
+                            <option value="0">Aral</option>
+                            <option value="Aimol">Aimol</option>
+                            <option value="Amalie">Amalie</option>
+                            <option value="Aral">Aral</option>
+                            <option value="Auchan">Auchan</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Bardahl">Bardahl</option>
+                            <option value="Bp">Bp</option>
+                            <option value="Castrol">Castrol</option>
+                            <option value="Elf">Elf</option>
+                            <option value="Eneos">Eneos</option>
+                            <option value="Eni Agip">Eni Agip</option>
+                            <option value="Erg">Erg</option>
+                            <option value="Esso">Esso</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Fuchs">Fuchs</option>
+                            <option value="G-Energy">G-Energy</option>
+                            <option value="GM">GM</option>
+                            <option value="Gulf">Gulf</option>
+                            <option value="Havoline">Havoline</option>
+                            <option value="Honda">Honda</option>
+                            <option value="Hyundai/Kia">Hyundai/Kia</option>
+                            <option value="Idemitsu">Idemitsu</option>
+                            <option value="Jaytec">Jaytec</option>
+                            <option value="Kendall">Kendall</option>
+                            <option value="Kixx">Kixx</option>
+                            <option value="Liqui Moly">Liqui Moly</option>
+                            <option value="Mannol">Mannol</option>
+                            <option value="Marly Zenox">Marly Zenox</option>
+                            <option value="Mazda">Mazda</option>
+                            <option value="Mercedes Benz">Mercedes Benz</option>
+                            <option value="Mitsubishi">Mitsubishi</option>
+                            <option value="Mobil">Mobil</option>
+                            <option value="Mobil 1">Mobil 1</option>
+                            <option value="Motul">Motul</option>
+                            <option value="NGN">NGN</option>
+                            <option value="Nissan">Nissan</option>
+                            <option value="Pentosin">Pentosin</option>
+                            <option value="Petro-Canada">Petro-Canada</option>
+                            <option value="Ravenol">Ravenol</option>
+                            <option value="Red Line">Red Line</option>
+                            <option value="Rheinoil">Rheinoil</option>
+                            <option value="Selenia">Selenia</option>
+                            <option value="Shell">Shell</option>
+                            <option value="Shell2">Shell2</option>
+                            <option value="Tatneft">Tatneft</option>
+                            <option value="Total">Total</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="VW">VW</option>
+                            <option value="Valvoline">Valvoline</option>
+                            <option value="Xenum">Xenum</option>
+                            <option value="Yacco">Yacco</option>
+                            <option value="Zic">Zic</option>
+                            <option value="Волга Ойл">Волга Ойл</option>
+                            <option value="Лукойл">Лукойл</option>
+                            <option value="ТНК">ТНК</option>
+                            <option value="Тотек ">Тотек </option>
+                            <option value="Хадо">Хадо</option>
+                          </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </form>
+          
+      </div>
+  </section>
+
+  <section class="j-results">
+      <div class="container">
+          <div class="j-results__count">
+              <p>Найдено результатов: 5</p>
+              <div class="j-results__filter-btn">
+                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 3.52176H15.9159C15.5771 4.64949 14.5409 5.47827 13.3044 5.47827C12.0679 5.47827 11.0325 4.64949 10.6928 3.52176H0.782598C0.350597 3.52176 0 3.17112 0 2.73912C0 2.30712 0.350597 1.95653 0.782598 1.95653H10.6928C11.0316 0.828796 12.0678 1.14441e-05 13.3043 1.14441e-05C14.5408 1.14441e-05 15.5763 0.828796 15.9159 1.95653H18C18.4328 1.95653 18.7826 2.30712 18.7826 2.73912C18.7826 3.17112 18.4328 3.52176 18 3.52176ZM13.3044 1.56521C12.6572 1.56521 12.1305 2.09189 12.1305 2.73912C12.1305 3.38635 12.6572 3.91304 13.3044 3.91304C13.9516 3.91304 14.4783 3.38635 14.4783 2.73912C14.4783 2.09189 13.9516 1.56521 13.3044 1.56521Z" fill="#1F72E4"/>
+                  <path d="M18 16.0435H15.9159C15.5763 17.1712 14.5409 18 13.3044 18C12.0679 18 11.0325 17.1712 10.6928 16.0435H0.782598C0.350597 16.0435 0 15.6929 0 15.2609C0 14.8289 0.350597 14.4783 0.782598 14.4783H10.6928C11.0325 13.3505 12.0679 12.5217 13.3044 12.5217C14.5409 12.5217 15.5763 13.3505 15.9159 14.4783H18C18.4328 14.4783 18.7826 14.8289 18.7826 15.2609C18.7826 15.6929 18.4328 16.0435 18 16.0435ZM13.3044 14.087C12.6572 14.087 12.1305 14.6137 12.1305 15.2609C12.1305 15.9081 12.6572 16.4348 13.3044 16.4348C13.9516 16.4348 14.4783 15.9081 14.4783 15.2609C14.4783 14.6137 13.9516 14.087 13.3044 14.087Z" fill="#1F72E4"/>
+                  <path d="M18 9.7825H8.08985C7.75019 10.9102 6.7148 11.739 5.4783 11.739C4.2418 11.739 3.20637 10.9102 2.86674 9.7825H0.782598C0.350597 9.7825 0 9.4319 0 8.9999C0 8.5679 0.350597 8.2173 0.782598 8.2173H2.8667C3.20637 7.08957 4.24176 6.26079 5.47826 6.26079C6.71476 6.26079 7.75019 7.08957 8.08982 8.2173H18C18.4328 8.2173 18.7826 8.5679 18.7826 8.9999C18.7826 9.4319 18.4328 9.7825 18 9.7825ZM5.47826 7.82598C4.83103 7.82598 4.30434 8.35267 4.30434 8.9999C4.30434 9.64713 4.83103 10.1738 5.47826 10.1738C6.12549 10.1738 6.65217 9.64713 6.65217 8.9999C6.65217 8.35267 6.12549 7.82598 5.47826 7.82598Z" fill="#1F72E4"/>
+                </svg>
+              </div>
+              <div class="j-results__filters">
+                <svg class="j-results__filters-close" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7.5 7.5L14 14" stroke="#1F72E4" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M1 14L7.5 7.5L14 0.999999" stroke="#1F72E4" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <div class="j-results__filters-mob j-filters__box-items">
+                  <div class="research__select-group">
+                      <div class="research__select-item">
+                        <label for="sea" class="research__label">Вязкость</label>
+                        <select id="sea" name="viscosity" class="research__select">
+                          <option value="0">0</option>
+                          <option value="0w20">0w20</option>
+                          <option value="0w30">0w30</option>
+                          <option value="0w40">0w40</option>
+                          <option value="5w20">5w20</option>
+                          <option value="5w30">5w30</option>
+                          <option value="5w40">5w40</option>
+                          <option value="5w50">5w50</option>
+                          <option value="7.5w40">7.5w40</option>
+                          <option value="10w40">10w40</option>
+                          <option value="10w50">10w50</option>
+                          <option value="10w60">10w60</option>
+                          <option value="15w40">15w40</option>
+                          <option value="15w50">15w50</option>
+                          <option value="20">20</option>
+                          <option value="50">50</option>
+                        </select>
+                      </div>
+                      <div class="research__select-item">
+                        <label for="brands" class="research__label">Производитель</label>
+                        <select id="brands" name="viscosity" class="research__select">
+                          <option value="0">Aral</option>
+                          <option value="Aimol">Aimol</option>
+                          <option value="Amalie">Amalie</option>
+                          <option value="Aral">Aral</option>
+                          <option value="Auchan">Auchan</option>
+                          <option value="BMW">BMW</option>
+                          <option value="Bardahl">Bardahl</option>
+                          <option value="Bp">Bp</option>
+                          <option value="Castrol">Castrol</option>
+                          <option value="Elf">Elf</option>
+                          <option value="Eneos">Eneos</option>
+                          <option value="Eni Agip">Eni Agip</option>
+                          <option value="Erg">Erg</option>
+                          <option value="Esso">Esso</option>
+                          <option value="Ford">Ford</option>
+                          <option value="Fuchs">Fuchs</option>
+                          <option value="G-Energy">G-Energy</option>
+                          <option value="GM">GM</option>
+                          <option value="Gulf">Gulf</option>
+                          <option value="Havoline">Havoline</option>
+                          <option value="Honda">Honda</option>
+                          <option value="Hyundai/Kia">Hyundai/Kia</option>
+                          <option value="Idemitsu">Idemitsu</option>
+                          <option value="Jaytec">Jaytec</option>
+                          <option value="Kendall">Kendall</option>
+                          <option value="Kixx">Kixx</option>
+                          <option value="Liqui Moly">Liqui Moly</option>
+                          <option value="Mannol">Mannol</option>
+                          <option value="Marly Zenox">Marly Zenox</option>
+                          <option value="Mazda">Mazda</option>
+                          <option value="Mercedes Benz">Mercedes Benz</option>
+                          <option value="Mitsubishi">Mitsubishi</option>
+                          <option value="Mobil">Mobil</option>
+                          <option value="Mobil 1">Mobil 1</option>
+                          <option value="Motul">Motul</option>
+                          <option value="NGN">NGN</option>
+                          <option value="Nissan">Nissan</option>
+                          <option value="Pentosin">Pentosin</option>
+                          <option value="Petro-Canada">Petro-Canada</option>
+                          <option value="Ravenol">Ravenol</option>
+                          <option value="Red Line">Red Line</option>
+                          <option value="Rheinoil">Rheinoil</option>
+                          <option value="Selenia">Selenia</option>
+                          <option value="Shell">Shell</option>
+                          <option value="Shell2">Shell2</option>
+                          <option value="Tatneft">Tatneft</option>
+                          <option value="Total">Total</option>
+                          <option value="Toyota">Toyota</option>
+                          <option value="VW">VW</option>
+                          <option value="Valvoline">Valvoline</option>
+                          <option value="Xenum">Xenum</option>
+                          <option value="Yacco">Yacco</option>
+                          <option value="Zic">Zic</option>
+                          <option value="Волга Ойл">Волга Ойл</option>
+                          <option value="Лукойл">Лукойл</option>
+                          <option value="ТНК">ТНК</option>
+                          <option value="Тотек ">Тотек </option>
+                          <option value="Хадо">Хадо</option>
+                        </select>
+                      </div>
+                  </div>
+                </div>
+                <div class="j-results__filters-mob j-filters__box-items">
+                  <div class="j-filters__box-radio">
+                      <div class="j-filters__radio-title">Полимеризация</div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="poly" value="1">
+                              <span></span>
+                              <p>Да</p>
+                          </label>
+                      </div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="poly" value="-1">
+                              <span></span>
+                              <p>Нет</p>
+                          </label>
+                      </div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="poly" value="0" checked="">
+                              <span></span>
+                              <p>Не важно</p>
+                          </label>
+                      </div>
+                  </div>
+                  <div class="j-filters__box-radio">
+                      <div class="j-filters__radio-title">Чистый результат</div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="scurf" id="">
+                              <span></span>
+                              <p>Да</p>
+                          </label>
+                      </div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="scurf" id="">
+                              <span></span>
+                              <p>Нет</p>
+                          </label>
+                      </div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="scurf" id="" checked="">
+                              <span></span>
+                              <p>Не важно</p>
+                          </label>
+                      </div>
+                  </div>
+                  <div class="j-filters__box-radio">
+                      <div class="j-filters__radio-title">Хим. анализ</div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="him" value="1">
+                              <span></span>
+                              <p>Да</p>
+                          </label>
+                      </div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="him" value="-1">
+                              <span></span>
+                              <p>Нет</p>
+                          </label>
+                      </div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="him" value="0" checked="">
+                              <span></span>
+                              <p>Не важно</p>
+                          </label>
+                      </div>
+                  </div>
+                  <div class="j-filters__box-radio">
+                      <div class="j-filters__radio-title">Синтетика</div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="thickening" value="1">
+                              <span></span>
+                              <p>Да</p>
+                          </label>
+                      </div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="thickening" value="-1">
+                              <span></span>
+                              <p>Нет</p>
+                          </label>
+                      </div>
+                      <div class="j-filters__radio">
+                          <label>
+                              <input type="radio" name="thickening" value="0" checked="">
+                              <span></span>
+                              <p>Не важно</p>
+                          </label>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="j-results__box">
+                <div class="j-results__item">
+                    <div class="j-results__item-img">
+                        <img src="./images/oil/item-1.png" alt="">
+                    </div>
+                    <h4 class="subtitle">
+                        S1 BMW High Performance Full Synthetic MOTOR OIL SAE 5W-30
+                    </h4>
+                    
+                    <div class="j-results__item-content">
+                        <ul>
+                            <li>
+                                <span>Вязкость</span>
+                                <span>0w-30</span>
+                            </li>
+                            <li>
+                                <span>Производитель</span>
+                                <span>Mercedes Benz</span>
+                            </li>
+                            <li>
+                                <span>Синтетика</span>
+                                <span>нет</span>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>Полимеризация</span>
+                                <span>есть</span>
+                            </li>
+                            <li>
+                                <span>Чистый результат</span>
+                                <span>есть</span>
+                            </li>
+                            <li>
+                                <span>Химический анализ</span>
+                                <span>нет</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="j-results__item">
+                    <div class="j-results__item-img">
+                        <img src="./images/oil/item-1.png" alt="">
+                    </div>
+                    <h4 class="subtitle">
+                        S1 BMW High Performance Full Synthetic MOTOR OIL SAE 5W-30
+                    </h4>
+                    
+                    <div class="j-results__item-content">
+                        <ul>
+                            <li>
+                                <span>Вязкость</span>
+                                <span>0w-30</span>
+                            </li>
+                            <li>
+                                <span>Производитель</span>
+                                <span>Mercedes Benz</span>
+                            </li>
+                            <li>
+                                <span>Синтетика</span>
+                                <span>нет</span>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>Полимеризация</span>
+                                <span>есть</span>
+                            </li>
+                            <li>
+                                <span>Чистый результат</span>
+                                <span>есть</span>
+                            </li>
+                            <li>
+                                <span>Химический анализ</span>
+                                <span>нет</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+          </div>
+      </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container">
+        <p class="footer__text">ЗАБОТА О ВАШЕМ BMW — ЭТО НАША РАБОТА. BMW SERVICE.</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <ul class="footer__links">
+
+          <li><a href="#">Ремонт BMW</a></li>
+          <li><a href="#">Дооснащение</a></li>
+          <li><a href="#">Тех.обслуживание</a></li>
+          <li><a href="#">Кузовной ремонт</a></li>
+          <li><a href="#">Сход-развал</a></li>
+          <li><a href="#">Калькулятор ТО</a></li>
+        </ul>
+
+        <div class="footer__section-1">
+          <div class="footer__copywrite">
+            <p>© 2020 НЕЗАВИСИМЫЙ БМВ СЕРВИС ИМ. СЕРГЕЯ СМИРНОВА</p>
+            <ul>
+              <li><a href="#">www.smirnovservice.ru</a></li>
+              <li><a href="#">mozgi.bmw@yandex.ru</a></li>
+            </ul>
+          </div>
+          <div class="footer__social">
+            <a href="#" class="footer__social__item">
+              <div class="footer__social__item-img">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.235 4.005C16.7467 3.1365 16.2169 2.97675 15.138 2.916C14.0603 2.84288 11.3501 2.8125 9.00225 2.8125C6.64987 2.8125 3.93862 2.84288 2.862 2.91488C1.78537 2.97675 1.25437 3.13537 0.761625 4.005C0.25875 4.87238 0 6.36638 0 8.99663C0 8.99888 0 9 0 9C0 9.00225 0 9.00338 0 9.00338V9.00563C0 11.6246 0.25875 13.1299 0.761625 13.9882C1.25437 14.8568 1.78425 15.0143 2.86087 15.0874C3.93863 15.1504 6.64987 15.1875 9.00225 15.1875C11.3501 15.1875 14.0602 15.1504 15.1391 15.0885C16.218 15.0154 16.7479 14.8579 17.2361 13.9894C17.7435 13.131 18 11.6257 18 9.00675C18 9.00675 18 9.00338 18 9.00113C18 9.00113 18 8.99888 18 8.99775C18 6.36638 17.7435 4.87238 17.235 4.005ZM6.75 12.375V5.625L12.375 9L6.75 12.375Z" fill="#4E4E50"/>
+                </svg>
+              </div>
+              <span>avtorevizorro</span>
+            </a>
+            <a href="#" class="footer__social__item">
+              <div class="footer__social__item-img">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0H5.21739C4.45852 0 3.78976 0.180207 3.28599 0.315956C3.18364 0.343535 3.0881 0.36928 3 0.391305C2.34783 0.652175 1.82609 0.913045 1.43479 1.43478C0.913048 1.95652 0.65218 2.47826 0.391311 3L0.391308 3C0.130439 3.52174 0 4.30435 0 5.2174V9.00001V12.7826C0 13.5415 0.180208 14.2102 0.315957 14.714C0.343537 14.8164 0.369283 14.9119 0.391308 15C0.652178 15.6522 0.913046 16.1739 1.43479 16.5652C1.95652 16.9565 2.47826 17.3478 3 17.6087C3.52174 17.8696 4.30435 18 5.21739 18H9H12.7826C13.5415 18 14.2102 17.8198 14.714 17.6841C14.8164 17.6565 14.9119 17.6307 15 17.6087C15.6522 17.3478 16.1739 17.087 16.5652 16.5652C16.9565 16.0435 17.3478 15.5218 17.6087 15C17.8696 14.4783 18 13.6957 18 12.7826V9.00001V5.2174C18 4.45853 17.8198 3.78978 17.684 3.28601C17.6565 3.18365 17.6307 3.08811 17.6087 3C17.3478 2.34783 17.087 1.82609 16.5652 1.43478C16.0435 0.91305 15.5217 0.65218 15 0.391313L15 0.391305C14.4783 0.130435 13.6957 0 12.7826 0H9ZM14.9996 4.30422C14.9996 4.95639 14.4778 5.3477 13.9561 5.3477C13.4343 5.3477 12.9126 4.82596 12.9126 4.30422C12.9126 3.65205 13.4343 3.26074 13.9561 3.26074C14.4778 3.26074 14.9996 3.65205 14.9996 4.30422ZM8.99936 12.1302C7.30371 12.1302 5.99936 10.8259 5.99936 9.13023C5.99936 7.43457 7.30371 6.13023 8.99936 6.13023C10.695 6.13023 11.9994 7.43457 11.9994 9.13023C11.9994 10.8259 10.695 12.1302 8.99936 12.1302ZM8.99936 4.43457C6.39067 4.43457 4.30371 6.52153 4.30371 9.13023C4.30371 11.7389 6.39067 13.8259 8.99936 13.8259C11.6081 13.8259 13.695 11.7389 13.695 9.13023C13.695 6.52153 11.6081 4.43457 8.99936 4.43457Z" fill="#4E4E50"/>
+                </svg>
+              </div>
+              <span>avtorevizorro.restoration</span>
+            </a>
+            <a class="footer__social__item footer__social__item--arrow" href="#header">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="28" height="28" transform="matrix(0 -1 -1 0 28 28)" fill="#4E4E50"/>
+                <g clip-path="url(#clip0)">
+                <path d="M24.2666 20.7322L13.9999 7.26758L3.73326 20.7322H8.86648L13.9999 13.9718L19.1333 20.7322H24.2666Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0">
+                <rect width="20.5333" height="20.5333" fill="white" transform="translate(24.2666 3.7334) rotate(90)"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__section-2">
+          <p>
+            Предложения на сайте не являются публичной офертой. Все цены на работы и расходные материалы требуют уточнения и согласования до начала работ в виде консультаций: по телефону, электронной почте, whatsapp, или составления заказ наряда в офисе по адресу <a href="#">Москва, ул. Лобачевского, 110к1</a>
+          </p>
+          <div id="easy-webdesign">
+            Создание сайта: <a href="#">Easy web</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="whatsapp">
+    <a href="https://wa.me/79684847272" class="whatsapp__link">
+      <img class="whatsapp-img" src="images/whatsapp.svg" alt="WhatsApp">
+    </a>
+  </div>
+<script src="./js/app.js"></script></body>
+
+</html>
